@@ -26,7 +26,7 @@
 			</div>
 
 			<div class="navItem">
-				<a href="profile.php" class="navItemLink">Reece Kenney</a>
+				<a href="profile.php" class="navItemLink">Laurens Post</a>
 			</div>
 		</div>
 

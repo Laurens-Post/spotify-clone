@@ -11,11 +11,11 @@
 				<div class="trackInfo">
 
 					<span class="trackName">
-						<span>Happy Birthday</span>
+						<span>Speed of Sound</span>
 					</span>
 
 					<span class="artistName">
-						<span>Reece Kenney</span>
+						<span>Coldplay</span>
 					</span>
 
 				</div>
