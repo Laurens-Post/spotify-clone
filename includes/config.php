@@ -1,18 +1,12 @@
 <?php
-declare(strict_types=1);
-    ob_start();
-    session_start();
+	ob_start();
+	session_start();
 
-    $timezone = date_default_timezone_set("Europe/Amsterdam");
+	$timezone = date_default_timezone_set("Europe/Amsterdam");
 
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "postify";
+	$con = mysqli_connect("localhost", "root", "", "postify");
 
-    $con = mysqli_connect($servername, $username, $password, $database);
-
-    // Check connection
-    if ($con->connect_error) {
-        die("Connection failed: " . $con->connect_error);
-    }
+	if(mysqli_connect_errno()) {
+		echo "Failed to connect: " . mysqli_connect_errno();
+	}
+?>
